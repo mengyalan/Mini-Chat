@@ -1,0 +1,13 @@
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<script type="text/javascript">
+   jQuery.ajaxSetup({cache: true});
+   
+   jQuery.getScript("trophy.js", function() {
+      MINI_GROUPCHATS = ["test1@conference.mengyalan.com"];
+      MINI_ANIMATE = true;
+      MINI_RANDNICK = true;
+      launchMini(true, true, "mengyalan.com");
+   });
+</script>
+
