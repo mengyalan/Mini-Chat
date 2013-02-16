@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>CHAT ME</title>
     <link rel="stylesheet" href="main.css" type="text/css" media="all" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://static.jappix.com/php/get.php?l=en&amp;t=js&amp;g=mini.xml"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </head>
 
@@ -24,10 +24,11 @@
 
       <div class="login">
         <div class="account">
+
           <h3>Login to your XMPP account</h3>
 
           <form id="login_account" action="#" method="post">
-            <input type="text" name="xid" placeholder="username@jappix.com" />
+            <input type="text" name="xid" placeholder="username@provider.com" />
             <input class="password_false" type="text" placeholder="password" />
             <input class="password_real" style="display: none;" type="password" name="pwd" />
             <input class="body-img" type="submit" value="Log in" />

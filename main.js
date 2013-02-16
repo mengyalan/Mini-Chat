@@ -332,7 +332,7 @@ $(document).ready(function() {
 
             // No domain?
             if (!domain)
-                domain = 'jappix.com';
+                domain = 'conference.mengyalan.com';
 
             // Remove the login tool
             $('#content div.login').fadeOut('normal', function() {
@@ -340,7 +340,7 @@ $(document).ready(function() {
             });
 
             // Mini vars
-            MINI_GROUPCHATS = ["mini"];
+            MINI_GROUPCHATS = ["test1"];
 
             // Save the values
             setDB('jappix-mini-login', 'domain', domain);
@@ -359,7 +359,7 @@ $(document).ready(function() {
     $('#login_anonymous').submit(function() {
         try {
             // Anonymous domain
-            var domain = 'anonymous.jappix.com';
+            var domain = 'mengyalan.com';
 
             // Read the values
             var nick = trim($(this).find('input[name=nick]').val());
