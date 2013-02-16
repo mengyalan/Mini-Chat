@@ -238,12 +238,6 @@ a {
 	float: left;
 }
 
-#content div.login a.register {
-	font-size: 0.75em;
-	margin: 16px 30px;
-	float: left;
-}
-
 #get_assistant div.code {
 	font: 0.85em Consolas, Monaco, Courier, monospace;
 	background: white;
